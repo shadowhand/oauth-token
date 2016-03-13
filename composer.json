@@ -20,9 +20,10 @@
         "php" : "~5.5|~7.0"
     },
     "require-dev": {
-        "phpunit/phpunit" : "4.*",
-        "scrutinizer/ocular": "~1.1",
-        "squizlabs/php_codesniffer": "~2.3"
+        "squizlabs/php_codesniffer": "^2.3"
+    },
+    "suggest": {
+        "phpunit/phpunit": "Install PHPUnit globally to run tests."
     },
     "autoload": {
         "psr-4": {
